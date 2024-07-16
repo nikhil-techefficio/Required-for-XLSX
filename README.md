@@ -17,3 +17,8 @@ If an exact match for the lookup value in C2 is not found in column D, the formu
    
     -- =IFERROR(A2/B2, "Error in calculation")    
        ![image](https://github.com/user-attachments/assets/ea5fb69c-01ee-4476-b97f-d1e326a2b4d7)     
+=VLOOKUP(C5,'RTO Mapping'!$D:$G,4,0)  
+
+=IFERROR(ROUND(AJ27*'Telangana Data - WS MS'!AD51,0),0)  --> error handling with round off value
+  --> compares the value of current sheet aj27 to that of Telangana Data - WS MS of sheet to AD51 and rounds off the value..
+  
